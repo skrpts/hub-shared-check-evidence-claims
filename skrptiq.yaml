@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "f27e62cd-f20a-47d9-a805-b744af31549c"
+name: "check-evidence-claims"
+display_name: "Check Evidence and Claims"
+description: "Verifies claims are supported by cited sources, flags unsupported assertions"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-check-evidence-claims"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
