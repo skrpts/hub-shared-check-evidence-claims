@@ -3,7 +3,7 @@ id: "35daebca-cb8a-4a74-9f5c-51be5f7327fb"
 name: "check-evidence-claims"
 display_name: "Check Evidence and Claims"
 description: "Verifies claims are supported by cited sources, flags unsupported assertions"
-version: "1.0.1"
+version: "1.0.2"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -14,6 +14,8 @@ category: "shared"
 tags:
   - "shared"
   - "prompt"
+dependencies: []
+
 contents:
   skills: 0
   prompts: 1
