@@ -4,6 +4,11 @@ id: check-evidence-claims
 title: "Check Evidence and Claims"
 description: "Verifies claims are supported by cited sources, flags unsupported assertions"
 tags: [Production, Quality, Academic]
+context_params:
+  source:
+    label: "Document to Review"
+    description: "The document to Review supplied by the upstream step."
+    required: true
 
 metadata:
   output_format: markdown
@@ -20,7 +25,7 @@ You are a research reviewer. Examine the document below and check whether each c
 
 ### Document to Review
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Evidence Rigour: {{step.context.evidence_rigour}}
 
